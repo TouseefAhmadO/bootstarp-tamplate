@@ -1,0 +1,63 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.bg{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.nav-item a{
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav-item a:hover{
+    color: orange;
+}
+@media (max-width:990px){
+    .nav-item{
+        text-align: center;
+    }
+    .form{
+        text-align: center;
+    }
+}
+.card1{
+    border:2px solid white;
+    background: rgba(0, 0, 0, 0.6);
+}
+.card1:hover{
+    background: orange;
+    border:none;
+    box-shadow: black 3px 3px 6px 1px inset, black -3px -3px 6px 1px inset;
+    transition: 0.6s;
+}
+.fas{
+    color: orange;
+    font-size: 50px;
+}
+.card1:hover .fas{
+    color: black;
+    text-shadow: 0 0 8px white;
+}
+.heading{
+    font-size: 28px;
+    text-shadow: 0 0 6px orange;
+}
+.card1:hover .heading{
+    color: black;
+    text-shadow: 0 0 8px white;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.card1:hover p{
+    color: black;
+    text-shadow: 0 0 8px white;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(232, 243, 253);
+    padding: 0%;
+    font-family: 'Rubik', sans-serif;
+}
+@media (max-width:990px){
+    .nav-item{
+        text-align: center;
+        background: rgb(232, 243, 253);
+        padding: 4px;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.form div{
+    margin: 0 14px;
+}
+@media (max-width:990px){
+    .form{
+        flex-direction: column;
+    }
+    .form div{
+        background: rgb(232, 243, 253);
+        margin: 0 7px;
+        margin-bottom: 8px;
+        padding: 2px;
+    }
+}
+.img img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width:350px){
+    .img img{
+        height: 200px; 
+        width: 100%;
+    }
+}
+.card1{
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card1:hover{
+    background: blue;
+    color: white;
+    transition: 1s ;
+}
+.fas{
+    color: blue;
+}
+.card1:hover .fas{
+    color: black;
+}
+.para{
+    color: gray;
+}
+.card1:hover .para{
+    color: white;
+}
